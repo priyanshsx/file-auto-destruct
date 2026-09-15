@@ -53,7 +53,7 @@ int main() {
             }
 
             // printing the timer on terminal 
-            printf("\rDetonating in: %i", seconds_left);
+            printf("\rDetonating in: %2d", seconds_left);
             fflush(stdout);
 
             // to prevent the loop from running continuously 
